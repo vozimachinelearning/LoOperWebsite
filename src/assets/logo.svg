@@ -1,0 +1,48 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#F5E6D3"/>
+  
+  <!-- Robotic arm base -->
+  <rect x="85" y="150" width="30" height="20" rx="5" fill="#8B4513"/>
+  
+  <!-- Robotic arm segments -->
+  <!-- First segment -->
+  <rect x="75" y="120" width="50" height="15" rx="7" fill="#FF8C00" transform="rotate(-30 100 127)"/>
+  <circle cx="85" cy="135" r="12" fill="#8B4513"/>
+  <circle cx="85" cy="135" r="8" fill="#FF8C00"/>
+  <circle cx="85" cy="135" r="4" fill="#8B4513"/>
+  
+  <!-- Second segment -->
+  <rect x="75" y="85" width="40" height="12" rx="6" fill="#FF8C00" transform="rotate(15 95 91)"/>
+  <circle cx="115" cy="95" r="10" fill="#8B4513"/>
+  <circle cx="115" cy="95" r="6" fill="#FF8C00"/>
+  <circle cx="115" cy="95" r="3" fill="#8B4513"/>
+  
+  <!-- Third segment -->
+  <rect x="110" y="60" width="35" height="10" rx="5" fill="#FF8C00" transform="rotate(45 127 65)"/>
+  <circle cx="140" cy="70" r="8" fill="#8B4513"/>
+  <circle cx="140" cy="70" r="5" fill="#FF8C00"/>
+  
+  <!-- Gripper/End effector -->
+  <path d="M145 65 L155 60 L158 65 L155 70 L150 72 L145 70 Z" fill="#8B4513"/>
+  <path d="M145 65 L155 55 L158 60 L155 65 L150 67 L145 65 Z" fill="#8B4513"/>
+  
+  <!-- Central gear -->
+  <circle cx="100" cy="100" r="20" fill="#8B4513"/>
+  <!-- Gear teeth -->
+  <path d="M100 80 L105 85 L100 90 L95 85 Z" fill="#8B4513"/>
+  <path d="M120 100 L115 105 L110 100 L115 95 Z" fill="#8B4513"/>
+  <path d="M100 120 L95 115 L100 110 L105 115 Z" fill="#8B4513"/>
+  <path d="M80 100 L85 95 L90 100 L85 105 Z" fill="#8B4513"/>
+  
+  <!-- Circular arrow indicating automation -->
+  <path d="M70 100 A30 30 0 0 1 130 100" stroke="#8B4513" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M130 100 A30 30 0 0 1 70 100" stroke="#8B4513" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8B4513"/>
+    </marker>
+  </defs>
+</svg>
